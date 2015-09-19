@@ -4,7 +4,9 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia multimediawidgets
+
+CONFIG+= C++11
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,8 +15,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    ccontrollpanel.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    ccontrollpanel.h
 
 FORMS    += mainwindow.ui
