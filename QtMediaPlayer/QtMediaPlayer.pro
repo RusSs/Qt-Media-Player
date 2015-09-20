@@ -16,9 +16,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    ccontrollpanel.cpp
+    ccontrollpanel.cpp \
+    ccontrollbutton.cpp
 
 HEADERS  += mainwindow.h \
-    ccontrollpanel.h
+    ccontrollpanel.h \
+    ccontrollbutton.h
 
 FORMS    += mainwindow.ui
