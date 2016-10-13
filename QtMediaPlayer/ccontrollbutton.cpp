@@ -12,7 +12,7 @@ CControllButton::CControllButton(QWidget *parent)
 
 CControllButton::~CControllButton()
 {
-    qDebug()<<"Deleted";
+    qDebug()<<"Deleted ~CControllButton";
 }
 
 void CControllButton::enterEvent(QEvent *e)
